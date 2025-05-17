@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    
+}
+ul>li{
+    list-style-type: none;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    margin: auto;
+    max-width: 80px;
+  
+}
+table,td,tr{ 
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+.btn{
+    background-color: black;
+    padding: 3px;
+    color: white;
+    margin-top: 5px;
+}
+label{
+    display: flex;
+}
+h1,h2,h3{
+    margin-top: 23px;
+}
+.btnsm{
+    background-color: black;
+    padding: 3px;
+    color: white;
+}
+
+
+    

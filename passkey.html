@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keys to access</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <nav>
+        <div class="logo">MYPASS</div>
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>services</li>
+            
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1>PasswordManager</h1>
+        <h2>YourPasswords</h2>
+        <table>
+            <tr>
+                <th>website</th>
+                <th>username</th>
+                <th>password</th>
+                <th>Delete</th>
+            </tr>
+           
+        </table>
+        <h2>AddPassword</h2>
+        <form action="/submit" method="post">
+       
+
+            <!-- Text input for website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
